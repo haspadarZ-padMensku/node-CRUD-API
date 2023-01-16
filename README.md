@@ -4,6 +4,9 @@ RSSchool-nodejs-2022-q4
 
 ## How to run
 
+1. Clone this repo
+2. Use development branch
+
 To run the app in development mode you should run following commands in your terminal:
 
 - `npm run start:dev`
