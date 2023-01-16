@@ -1,0 +1,25 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["standard-with-typescript", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "overrides": [],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "semi": [1, "always"],
+    "@typescript-eslint/semi": [1, "always"],
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-floating-promises": "warn",
+    "@typescript-eslint/no-dynamic-delete": "warn",
+    "prettier/prettier": ["error", {
+      "singleQuote": true
+    }]
+  }
+}
