@@ -15,6 +15,9 @@
   "rules": {
     "semi": [1, "always"],
     "@typescript-eslint/semi": [1, "always"],
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-floating-promises": "warn",
+    "@typescript-eslint/no-dynamic-delete": "warn",
     "prettier/prettier": ["error", {
       "singleQuote": true
     }]
